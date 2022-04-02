@@ -44,3 +44,7 @@ and a request body containing a single field. To lanch this API:
 > uvicorn main2:app --reload   
 ```
 
+## Tests
+Tests are written in test_main.py. They use FastAPI testing functionalities that ensure that
+tests can be run automatically in a Continuous Integration framework.
+
